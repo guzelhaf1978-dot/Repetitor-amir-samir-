@@ -38,3 +38,4 @@ table { width:100%; border-collapse:collapse; }
 td,th { padding:10px; border-bottom:1px solid #edf0f4; text-align:left; font-size:14px; }
 @media (max-width:700px) { .grid { grid-template-columns:1fr; } .hero,.wide { grid-column:auto; } .hero { display:block; } .hero button { width:100%; margin-top:10px; } .student-buttons { grid-template-columns:1fr; } h1 { font-size:27px; } }
 .tutor-name { margin-top: -8px; opacity: .75; font-weight: 600; }
+.schedule-item{display:flex;gap:12px;align-items:center;padding:10px 12px;border-bottom:1px solid #edf0f4}.schedule-item.today{font-weight:800;border-radius:12px;background:#eef1f7}.schedule-item b{width:32px}.finish{margin-top:18px;padding:20px;border-radius:16px;background:#eef1f7}.task button:disabled{opacity:.55;cursor:default}.task input:disabled{opacity:.7}
